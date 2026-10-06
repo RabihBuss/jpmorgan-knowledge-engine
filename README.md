@@ -2,8 +2,6 @@
 
 **[View the interactive page →](https://rabihbuss.github.io/jpmorgan-knowledge-engine/)**
 
-Also on claude.ai: [Knowledge Engine Architecture](https://claude.ai/artifact/RDUSuBZbDJ86t3S38qXTaN)
-
 An interactive reference architecture for a bank's employee knowledge engine, reconstructed from public statements about JPMorgan Chase's LLM Suite and its four generations of retrieval-augmented generation (RAG). Code walks every question down a trust ladder (scripted answers, live systems of record, durable documents, then temporal material), and one core LLM writes a short answer in which every sentence cites an approved source.
 
 ## What's on the page
@@ -22,7 +20,3 @@ Works in light and dark themes and at phone width.
 ## About this design
 
 An independent reference architecture built from public sources. It is **not** a description of JPMorgan Chase's internal systems and is not affiliated with or endorsed by JPMorgan Chase. Component names, policy values, evidence IDs, prompt versions, token counts and latency budgets are illustrative. Every statement about the company carries an evidence label (Confirmed, Reported or Inferred) and links to its source on the page.
-
-## Files
-
-- `index.html`: the complete page, self-contained (no build step; fonts from Google Fonts).
